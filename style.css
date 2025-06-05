@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #003366;
+}
+
+.hero {
+  background: #003366;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.hero a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.summary, .skills, .projects, .education, .certifications {
+  background: #fff;
+  margin: 30px 0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.skill-list {
+  list-style-type: none;
+  padding: 0;
+}
+.skill-list li {
+  margin-bottom: 10px;
+}
+
+.projects .project {
+  margin-bottom: 20px;
+}
+
+.education ul, .certifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+.education li, .certifications li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
